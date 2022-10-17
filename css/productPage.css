@@ -1,0 +1,212 @@
+.pp__display__block {
+    display: block !important;
+}
+
+
+
+/* PP Product Details Area Start */
+.pp_product_details .product_details__img  {
+    position: relative;
+}
+.pp_product_details .product_details__img img {
+    cursor: zoom-in;
+}
+.pp_product_details .product_details__img i  {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+}
+.pp_product_details .product_details__img:hover .fa-magnifying-glass {
+    display: none;
+}
+.pp_pd__last {
+    width: 34%;
+    margin-left: 1.5rem;
+}
+.pp_product_details .product_color span {
+    font-size: 1.50rem;
+    font-weight: 600;
+    color: black;
+}
+.pp_product_details .product_details__button button {
+    padding: 0.75rem 2rem;
+}
+.pp_pd__last a img {
+    width: 225px;
+}
+.pp_product__demo img {
+    width: 66px;
+    height: 66px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.pp_product_details .product_details__pricing span:nth-child(1) {
+    font-size: 1.5rem;
+}
+/* PP Product Details Area Stop */
+
+
+
+/*  PP Product Description Area Start */
+.pp_prodes__heading .pp_prodesh__headul {
+    list-style: none;
+    border-bottom: 1px solid #aaa;
+}
+.pp_prodes__heading .pp_prodesh__headul li {
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.pp_prodhdul__litaker {
+    font-weight: 700 !important;
+    border-bottom: 3px solid #ff5722 !important;
+    border-bottom-right-radius: 2px !important;
+}
+.pp_prodhdul__libreaker {
+    font-weight: normal !important;
+    border-bottom: none !important;
+}
+.pp_prodes__glinfo, .pp_prodes__details, .pp_prodes__reviews, .pp_prodes__videos {
+    display: none;
+}
+.pp_prodes__glinfo h4 {
+    font-size: 20px;
+    font-weight: normal;
+}
+.pp_real__info {
+    background-color: rgba(243,243,243);
+    border-radius: 5px;
+}
+.pp_real__info:hover {
+    background-color: rgba(229,231,235);
+}
+.pp_real__info div:nth-child(1) {
+    width: 25%;
+    padding-right: 5px;
+}
+.pp_real__info div:nth-child(2) {
+    width: 75%;
+    padding-left: 5px;
+}
+.pp_prodes__details img {
+    max-width: 100%;
+}
+.pp_prodes__details p {
+    margin-bottom: 0;
+}
+.pp_review__taker {
+    border-bottom: 1px solid #aaa;
+}
+.pp_review__profile {
+    width: 66px;
+    height: 66px;
+    position: relative;
+}
+.pp_review__profile img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.pp_rc_top h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(75,85,99);
+    opacity: 0.8;
+}
+.pp_rc_top span i {
+    color: rgb(250, 197, 8);
+    font-size: 14px;
+}
+.pp_rc__bottom h4 {
+    font-weight: 600;
+    color: rgba(53,63,76);
+    font-size: 16px;
+    opacity: 0.9;
+}
+.pp_review__form {
+    margin-top: 2.5rem;
+}
+.pp_review__form h4 {
+    padding-bottom: 0.5rem;
+}
+.pp_review__form form {
+    background-color: rgba(243,243,243);
+    padding: 2rem;
+    border-radius: 10px;
+}
+.pp_review__form form label {
+    margin: 0 0 5px;
+    color: #222529;
+    font-weight: 550;
+}
+.pp_form__start {
+    display: flex;
+}
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.rating > input{
+    display:none;
+}
+.rating label {
+    color: rgb(250, 197, 8) !important;
+}
+.rating > label {
+    position: relative;
+    width: 0.8em;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 !important;
+}
+.rating > label::before{
+    content: "\2605";
+    position: absolute;
+    opacity: 0;
+}
+.rating > label:hover:before,
+.rating > label:hover ~ label:before {
+    opacity: 1 !important;
+}
+.rating > input:checked ~ label:before{
+    opacity:1;
+}
+.rating:hover > input:checked ~ label:before{ 
+    opacity: 0.4;
+}
+.pp_review__form form textarea {
+    margin-top: 0.8rem;
+    margin-bottom: 0.7rem;
+    max-width: 100%;
+    padding: 0.8rem;
+    outline: none;
+    width: 100%;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+}
+.pp_review__form form input[type=text], .pp_review__form form input[type=email] {
+    margin-top: 0.8rem;
+    margin-bottom: 0.7rem;
+    max-width: 100%;
+    height: 37px;
+    padding: 0.8rem;
+    outline: none;
+    width: 100%;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+}
+.pp_review__form form input[type=checkbox] {
+    border: 1px solid #dfdfdf;
+}
+.pp_review__form form button {
+    margin-top: 0.5rem;
+    background-color: rgba(242,145,32);
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+/*  PP Product Description Area Stop */

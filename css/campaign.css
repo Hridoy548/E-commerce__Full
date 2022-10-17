@@ -1,0 +1,24 @@
+.campaign_head h4 {
+    font-size: 20px;
+    color: rgba(242,145,32);
+}
+.campaign_body img {
+    width: 100%;
+    border-radius: 10px;
+}
+.single-counter {
+    margin-left: 10px;
+}
+.single-counter:nth-child(1) {
+    color: rgba(99,102,241);
+    font-weight: 500;
+}
+.single-counter:nth-child(2), .single-counter:nth-child(3), .single-counter:nth-child(4), .single-counter:nth-child(5) {
+    background-color: rgba(99,102,241);
+    padding: 2px 5px;
+    color: #fff;
+    border-radius: 5px;
+}
+.campaign_main__section {
+    padding-top: 100px;
+}

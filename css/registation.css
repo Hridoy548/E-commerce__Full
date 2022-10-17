@@ -1,0 +1,85 @@
+/* Registation Page Area Start */
+.login_area {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.registation__page__area .login__left {
+    transform: translateX(2.5rem);
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
+    border-radius: 1rem;
+    height: 630px;
+    background-color: #fff;
+}
+.registation__page__area .login_right {
+    background-color: #fff;
+    padding: 2rem;
+    transform: translateX(-2.5rem);
+    width: 25rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
+    height: 630px;
+}
+.login_right__top h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgba(107,107,107);
+}
+.login_right__top span {
+    font-size: 13px;
+}
+.login_right form label, .login_right form input {
+    display: block;
+    width: 100%;
+}
+.login_right form label {
+    margin-bottom: 3px;
+}
+.login_right form input {
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 3px;
+}
+.login_right form span {
+    display: block;
+    margin-top: .5rem;
+    font-size: 13px;
+    color: rgba(167,139,250);
+    cursor: pointer;
+}
+.login_right form input[type="button"] {
+    padding: .5rem 1rem;
+    border: none;
+    letter-spacing: .05em;
+    background-color: rgba(242,145,32);
+    color: #fff;
+    text-transform: uppercase;
+}
+.logreg__last__spin {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 12px;
+}
+.logreg__last__spin a {
+    text-decoration: underline !important;
+}
+.only_for__password {
+    position: relative;
+}
+.only_for__password i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #8C8C8C;
+}
+.logreg_passi__opener {
+    display: block !important;
+}
+.logreg_passi__closer {
+    display: none !important;
+}
+/* Registation Page Area Stop */

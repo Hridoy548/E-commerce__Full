@@ -1,0 +1,57 @@
+/* CP Head Image Area Start */
+.cp_head__image img {
+    width: 100%;
+}
+/* CP Head Image Area Stop */
+
+
+
+/* CP Main Content Area Start */
+.cp_filter__top, .cp_filter_bottom {
+    border-radius: 5px;
+}
+.cp_filter__top .color-get, .cp_filter_bottom .color-get {
+    background-color: rgba(238,238,238);
+}
+.cp_ft_extraordinary {
+    cursor: pointer;
+}
+.cp_ft_extraordinary:hover {
+    background-color: rgba(249,250,251);
+} 
+.cp_filter__top .fa-chevron-down {
+    font-size: 13px;
+    font-weight: 550;
+}
+.cp_ft__brands ul {
+    list-style: none;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 10px 10px -3px rgba(0,0,0,.1);
+}
+.cp_ft__brands ul li {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cp_ft__brands ul li:hover {
+    background-color: rgba(243,244,246);
+}
+.price_range__div p {
+    margin-bottom: .7rem;
+}
+.cp_fliter__shower {
+    display: block !important;
+}
+.cp_fb__tags span {
+    margin: 0.25rem;
+    background-color: rgba(229,231,235);
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 550;
+    cursor: pointer;
+}
+.cp_fb__tags span:hover {
+    background-color: rgba(209,213,219);
+}
+/* CP Main Content Area Stop */
